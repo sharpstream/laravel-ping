@@ -39,7 +39,8 @@ class Ping
 		$this->client = new Client([
 			'timeout' => $this->timeout,
 			'allow_redirects' => $this->allowRedirects,
-			'verify' => false
+			'verify' => false,
+			'http_errors' => 'false',
 		]);
 	}
 
