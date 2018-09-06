@@ -40,7 +40,7 @@ class Ping
 			'timeout' => $this->timeout,
 			'allow_redirects' => $this->allowRedirects,
 			'verify' => false,
-			'http_errors' => 'false',
+			'http_errors' => false,
 		]);
 	}
 
